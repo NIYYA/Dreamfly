@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="50dp"
+        android:text="呼噜"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/denglu_et_zhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="请输入账号" />
+
+    <EditText
+        android:id="@+id/denglu_et_mi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/denglu_et_zhang"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="number"
+        android:text="请输入密码" />
+
+    <Button
+        android:id="@+id/denglu_bu_denglu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_below="@+id/denglu_et_mi"
+        android:layout_marginTop="77dp"
+        android:text="登陆" />
+
+    <Button
+        android:id="@+id/denglu_bt_zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/denglu_et_mi"
+        android:layout_alignTop="@+id/denglu_bu_denglu"
+        android:text="注册" />
+</RelativeLayout>
