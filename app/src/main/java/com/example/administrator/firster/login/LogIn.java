@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import com.example.administrator.firster.bean.Bean;
 import com.example.administrator.firster.R;
-import com.example.administrator.firster.MainActivity;
+import com.example.administrator.firster.activity.MainActivity;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 
@@ -81,8 +81,7 @@ public class LogIn extends Bean implements View.OnClickListener {
                 EMClient.getInstance().chatManager().loadAllConversations();
                 intent(LogIn.this, new Intent(LogIn.this, MainActivity.class));
                 finish();
-                toast(LogIn.this, "登陆成功");
-            }
+                toast(LogIn.this, "登陆成功");           }
 
             @Override
             public void onError(int i, String s) {

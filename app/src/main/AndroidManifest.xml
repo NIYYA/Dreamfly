@@ -38,7 +38,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.login.LogIn" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".activity.MainActivity" />
         <activity android:name="com.login.ZhuCheyemian"/>
         <!-- 设置环信应用的AppKey -->
         <meta-data

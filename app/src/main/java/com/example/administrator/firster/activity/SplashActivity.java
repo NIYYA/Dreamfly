@@ -1,12 +1,12 @@
-package com.example.administrator.firster.login;
+package com.example.administrator.firster.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import com.example.administrator.firster.MainActivity;
 import com.example.administrator.firster.bean.Bean;
 import com.example.administrator.firster.R;
+import com.example.administrator.firster.login.LogIn;
 import com.hyphenate.chat.EMClient;
 
 /**
