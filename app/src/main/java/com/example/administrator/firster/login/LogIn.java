@@ -31,7 +31,7 @@ public class LogIn extends Bean implements View.OnClickListener {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_denglu);
+        setContentView(R.layout.activity_login);
         init();
 
 
